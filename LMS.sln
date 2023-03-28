@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F9EC0A7-C2AD-4203-876F-9D96611E75B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C46345CD-1D0E-4FE8-9989-CD6D45D3A6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.Api", "src\LMS.Api\LMS.Api.csproj", "{AFF945D0-F7C6-46FD-99B0-45BDA150E336}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF945D0-F7C6-46FD-99B0-45BDA150E336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF945D0-F7C6-46FD-99B0-45BDA150E336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF945D0-F7C6-46FD-99B0-45BDA150E336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF945D0-F7C6-46FD-99B0-45BDA150E336}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFF945D0-F7C6-46FD-99B0-45BDA150E336} = {2F9EC0A7-C2AD-4203-876F-9D96611E75B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03B873DF-89C5-4C8F-90C6-3207663A9EC4}
+	EndGlobalSection
+EndGlobal
